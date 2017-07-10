@@ -1,0 +1,61 @@
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 15px;
+}
+.navbar-header {
+	background-color: #f6b319;
+}
+.navbar-brand h1 { /*Restaurant name */
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /*Remove Link Underline */
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #331133;
+}
+#nav-list a {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #f6b319;	
+}
+#nav-list a:hover {
+  background: #557c3e;
+}
+/** END HEADER **/
+/** CONTENT **/
+#main-content {
+	margin-top: 0;
+	margin-bottom: 15px;
+	width: 90%;
+}
+#main-content h3 {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+#content h4{
+	font-weight: bold;
+}
+#content {
+	background-color: #999998;
+}
+div#main-text{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/** END CONTENT **/
